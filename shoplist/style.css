@@ -1,0 +1,564 @@
+@charset "utf-8";
+/* CSS Document */
+/*debut style de la page d accuel*/
+@font-face {
+font-family: 'texte';
+src: url(police/Roboto-Regular.ttf);
+}
+body{
+	font-family: 'texte';
+	font-size: 0.8em;
+}
+body p{
+	font-size: 0.9em;
+}
+.titre{
+	color: #ef6f2d;
+	font-size: 1em;
+}
+
+.titre3{
+	color: #847057;
+	font-size: 1.5em;
+}
+.titre4{
+	color: #ef6f2d;
+}
+.titre5{
+	color: #847057;
+}
+.titre6{
+	color: #FFF;
+	text-align: center;
+}
+
+.letexte{
+	font-size: 0.7em;
+	color: #847057;
+}
+/*le header contenant mon nav*/
+#corps{
+	width: 900px;
+	margin: auto;
+}
+.bouton5 {
+	padding:6px 0 6px 0;
+	font:bold 13px 'Arial';
+	background:#FFF;
+	color:#000;;
+	/*border-radius:2px;*/
+	width:80px;
+	border:1px solid #000;
+	/*padding-right:px;*/
+}
+.bouton6 {
+	padding:6px 0 6px 0;
+	font:bold 13px 'Arial';
+	background:#847057;
+	color:#FFF;;
+	/*border-radius:2px;*/
+	width:85px;
+	border:1px solid #847057;
+}
+#menu{
+	display: flex;
+	flex-direction: row;
+	margin-top: 5px;
+	/*justify-content:*/ 
+	/*float: right;*/
+	/*display: inline-block;*/
+}
+.center{
+	margin-top: 15px;
+	margin-left: 30px;
+	/*float: left;*/
+	white-space: nowrap;
+	
+	
+}
+.center a{
+	padding-left: 5px;
+	text-decoration: none;
+	color: #000000;
+}
+#enregistre{
+	display: flex;
+	flex-direction: row;
+	/*justify-content: space-between;*/
+	/*width: 40px;*/
+	/*padding: 20px;*/
+	margin-left: 300px;
+	padding-top: 10px
+		
+		
+}
+/*traintement des images*/
+#bloc_imagesac{
+	height: 500px;
+	background: #f3d0c7;
+	display: flex;
+	flex-direction: row;
+}
+/*traitement bar de menu image*/
+.panier1{
+	/*width: 50px;*/
+	height: 40px;
+	margin: 0px;
+	margin-top: -20px;
+}
+
+#grandsac{
+	width: 300px;
+	height: 300px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#petitsac_bloc{
+	margin-top: 150px;
+	margin-left: 30px;
+	align-items: center
+}
+#petitsac_bloc img{
+	padding: 0px;
+}
+#petitsac2{
+	margin-left: 10px;
+}
+#image_demoisel{
+	width: 870px;
+	height: 300px;
+	background: url(maquette/images/b4.jpg) no-repeat;
+	padding-top: 80px;
+	padding-left: 30px	
+}
+#para{
+	width: 250px;
+	margin-left: 40px;
+	margin-top: -18px;
+	color: #FFFFFF;
+}
+/*mon bloc de texte avec des images*/
+#produit1{
+	display: flex;
+	justify-content: center;
+	padding-top: 30px	
+}
+.taille_bloc{
+	width: 250px;
+	margin: 10px;
+	/*color: #847057;*/
+}
+.taille_bloc img{
+	padding: 10px;
+}
+#bracellet1{
+	width: 200px
+}
+#montre1{
+	width:  100px;
+}
+#bloc_montre{
+	border: 1px solid #d8d8d8;
+	padding: 10px;
+	height: 240px
+}
+#produit2{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px	
+}
+#moyensac1{
+	width: 150px;
+	/*border: 1px solid #000;*/
+	/*margin: 10px;*/
+}
+.taille_bloc2{
+	width: 150px;
+	border: 1px solid #d8d8d8;
+	margin: 10px;
+	background: #847057
+}
+.taille_bloc img{
+	padding: 10px
+}
+#colier{
+	width: 150px;
+	/*border: 1px solid #000;
+	margin: 10px;*/
+}
+#colier1{
+	width:  150px;
+	/*border: 1px solid #000;
+	margin: 10px;*/
+}
+#tallon{
+	width:  150px;
+	/*margin: 10px;*/
+	/*border: 1px solid #000;*/
+}
+/*mon footer et transformation des listes*/
+#pdp{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	background:#000;
+	color: #FFF;
+	height: 200px
+}
+.pidp ul{
+	list-style: none;
+	margin-top: 30px
+}
+.pidp ul li{
+	list-style: none;
+	margin-top: 10px
+}
+#social{
+	display: flex;
+	flex-direction: row;
+	margin-right: 20px
+}
+.sociale {
+	border: 1px solid #555555;
+	opacity: 0.5px;
+	height: 20px;
+	margin: 5px;
+	margin-top: 30px;
+	width: 20px	
+}
+#facebook{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.espace{
+	padding: 7px;
+}
+
+/*page women*/
+#corps1{
+	width: 900px;
+	margin: auto;
+}
+.bacaside{
+	background: #FFF;
+	padding-bottom: 10px;
+}
+#produit_page2{
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+	padding-top: 50px;
+	flex-wrap: wrap;
+	float:right;
+	width: 600px;
+}
+#bracelet{
+	width:  150px;
+}
+#peti_sac{
+	width:  150px;
+}
+#petit_montre{
+	width:  150px;
+}
+#chaine{
+	width:  150px;
+}
+#petit_sac{
+	width:  150px;
+}
+#goumete{
+	width:  150px;
+}
+#petit_sac1{
+	width:  150px;
+}
+#petit_montre2{
+	width: 150px;
+}
+#goumete1{
+	width: 150px;
+}
+/*mon bloc sidebar*/
+#sidebar{
+	float: left;
+	padding-top: 50px;
+	margin-left: 40px;
+}
+/*taille bloc sidebar*/
+.taille_bloc3{
+	width: 200px;
+	border: 1px solid #d8d8d8;
+	margin: 10px;
+	background: #847057;
+}
+/*ma pallete de couleur*/
+a.carre{
+width:110px; 
+height:20px;  
+text-decoration:none; 
+color:white;
+text-align:center; 
+font-weight:bold; 
+background-color:#000080;
+padding:5px}
+ 
+.carre{
+	padding:3px;
+	margin: 2px;
+}
+.conteneur{
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	/*margin: px;*/
+	background: #FFF;
+	padding-bottom: 40px;
+	padding-top: 20px
+}
+.color-sample {
+  display: block;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  background-color: #900;
+}
+#pdp2{
+	display: flex;
+	justify-content: space-between;
+	/*margin-top: 30px;*/
+	background:#000;
+	color: #FFF;
+	height: 200px;
+	margin-top: 900px; 
+	/*width: 800px;*/
+}
+.pidp2 ul{
+	list-style: none;
+	margin-top: 30px
+}
+.pidp2 ul li{
+	list-style: none;
+	margin-top: 10px
+}
+#social2{
+	display: flex;
+	flex-direction: row;
+	margin-right: 20px
+}
+.sociale2 {
+	border: 1px solid #555555;
+	height: 20px;
+	margin: 5px;
+	margin-top: 30px;
+	width: 20px	
+}
+#facebook2{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.espace2{
+	padding: 6px;
+}
+
+/*page men*/
+#men3{
+	width: 150px;
+}
+#men4{
+	width: 150px;
+}
+#men5{
+	width: 150px;
+}
+#men6{
+	width: 150px;
+}
+#men7{
+	width: 150px;
+}
+#men8{
+	width: 150px;
+}
+#men9{
+	width: 150px;
+}
+#men10{
+	width: 150px;
+}
+#men11{
+	width: 150px;
+}
+#men12{
+	width: 150px;
+}
+
+/*page kids*/
+
+#kids1{
+	width: 150px;
+}
+#kids2{
+	width: 150px;
+}
+#kids3{
+	width: 150px;
+}
+#kids4{
+	width: 150px;
+}
+#kids5{
+	width: 150px;
+}
+#kids6{
+	width: 150px;
+}
+#kids7{
+	width: 150px;
+}
+#kids8{
+	width: 150px;
+}
+#kids9{
+	width: 150px;
+}
+/*page concernant le login*/
+
+.bouton3 {
+	padding:6px 0 6px 0;
+	font:bold 13px 'Arial';
+	background:#ea572d;
+	color:#FFF;;
+	/*border-radius:2px;*/
+	width:100px;
+	border:1px solid #ea572d;
+}
+#entete{
+	display: flex;
+	justify-content: center;
+}
+div h1{
+	text-align: center;
+		
+}
+#login{	
+	
+	margin-top: 80px;
+	text-align: center;	
+}
+#masection{
+	display: flex;
+	flex-direction: row;
+	/*margin: 10px;*/
+	justify-content: center;
+}
+#bloc_de_texte{
+	width: 400px;
+	/*height: 100px;*/
+	margin-left: 40px;
+	padding-top: 62px;
+	/*bottom: 500px*/;	 
+}
+#contenur_form{
+	padding-top: 65px;
+}
+/*footer de ma page login*/
+#pdplogin{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	background:#000;
+	color: #FFF;
+	height: 200px;
+	padding: 25px;
+}
+/*page d enregistrement*/
+#bloc_de_texte1{
+	width: 400px;
+	/*height: 100px;*/
+	margin-left: 40px;
+	/*padding-bottom: 40px;*/
+	padding-top: 35px
+	/*bottom: 500px*/;	 
+}
+.anulebor{
+	border-right: none;
+	border-left: none;
+	border-top: none;
+}
+.bouton42 {
+	padding:6px 6px 6px 0px;
+	font:bold 13px 'Arial';
+	background:#ea572d;
+	color:#FFF;;
+	margin-left: 2px;
+	margin-right: 2px;
+	width:60px;
+	border:1px solid #ea572d;
+}
+.blocbouton{
+	display: flex;
+	flex-direction: row;
+	width: 0px;
+	height: 30px;
+	margin-top: 95px;
+	justify-content: flex-end;
+	padding-right: 30px;
+}
+.contenant{
+	display: flex;
+	flex-direction: column;
+	padding-right: 15px;	
+}
+.contenant2
+{
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	border-bottom: 0.1px solid #FFF;
+}
+/*page de contact*/
+.bouton4 {
+	padding:6px 0 6px 0;
+	font:bold 13px 'Arial';
+	background:#ea572d;
+	color:#FFF;;
+	/*border-radius:2px;*/
+	width:100px;
+	border:1px solid #ea572d;
+	margin-top: 60px;
+	/*margin-left: 3px;*/
+}
+.bouton41 {
+	padding:6px 0 6px 0;
+	font:bold 13px 'Arial';
+	background:#ea572d;
+	color:#FFF;
+	/*margin-left: 10px;*/
+	/*border-radius:2px;*/
+	width:100px;
+	border:1px solid #ea572d;
+	margin-top: 60px;
+	margin-left: 280px;
+}
+#contact{
+	display: flex;
+	justify-content: center	
+}
+#login1{	
+	
+	margin-top: 80px;
+	text-align: center;	
+	width: 300px
+}
+/*#masection ul{
+	list-style: none;
+	
+}*/
+.textearea{
+	width: 375px;
+	height: 200px;
+}
+.mesul{
+	padding-top: 35px;
+}
